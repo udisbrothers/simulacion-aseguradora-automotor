@@ -14,7 +14,7 @@ Antes de programar, la primera etapa consistió en construir una base de datos s
 
 **Lógica de negocio y creatividad:** Al tropezar con combinaciones de datos interesantes, agregué capas de complejidad:
 
-  **Fraude sospechado: Una columna lógica dependiente de cruces específicos entre el tipo de siniestro y su gravedad (por ejemplo, combinaciones extrañas como                            "Daños por granizo" y "Muy grave").
+  **Fraude sospechado: Una columna lógica dependiente de cruces específicos entre el tipo de siniestro y su gravedad (por ejemplo, combinaciones extrañas como                           "Daños por granizo" y "Muy grave").
 
   **Días hasta la resolución: Variable relacionada al fraude (si hay sospecha de fraude, los días de resolución aumentan).
 
@@ -33,11 +33,12 @@ Una vez estructurado el Excel, quise llevarlo al siguiente nivel utilizando cód
 
 **Métricas actuariales:** Cálculo automatizado de primas totales anuales, severidad promedio, frecuencia y el Loss Ratio (Siniestralidad) agrupado por tipo de vehículo.
 
-Visualización de datos: Gráficos estadísticos con matplotlib, incorporando diseño personalizado (alertas de color según el umbral del Loss Ratio y gráficos de dispersión con coeficiente de correlación de Pearson).
+**Visualización de datos:** Gráficos estadísticos con matplotlib, incorporando diseño personalizado (alertas de color según el umbral del Loss Ratio y gráficos de dispersión con coeficiente de correlación de Pearson).
 
-Exportación de reportes: Generación automática de un nuevo archivo de salida (Resultados_Proyecto_Aseguradora.xlsx) con los indicadores procesados.
+**Exportación de reportes:** Generación automática de un nuevo archivo de salida (Resultados_Proyecto_Aseguradora.xlsx) con los indicadores procesados.
 
 -- Archivos del Repositorio --
+
 Excel_Proyecto_Aseguradora.xlsx: La base de datos original diseñada e ideada desde cero con datos sintéticos consistentes.
 
 Pyhton_Proyecto_Aseguradora.py: El script de automatización y análisis estadístico.
