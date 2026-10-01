@@ -24,7 +24,7 @@ resumen_vehiculo = df_merge.groupby("TIPO DE VEHICULO_x").agg(
     severidad_promedio=("IMPORTE PAGADO", "mean")
 )
 
-# 5. Unimos la prima total y calculamos el Loss Ratio (Siniestralidad)
+# 5. Unión de prima total y calculo de el Loss Ratio (Siniestralidad)
 resumen_vehiculo["prima_total"] = prima_por_vehiculo
 resumen_vehiculo["loss_ratio"] = (resumen_vehiculo["monto_pagado_total"] / resumen_vehiculo["prima_total"]) * 100
 monto_en_millones = resumen_vehiculo["monto_pagado_total"] / 1_000_000
